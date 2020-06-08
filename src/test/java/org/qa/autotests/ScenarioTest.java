@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 
 @Epic("AT_UI_Demo")
-@Feature("Client UI")
+@Feature("Yandex Market Catalog")
 @Severity(SeverityLevel.NORMAL)
 
 public class ScenarioTest extends BaseTest {
@@ -14,13 +14,15 @@ public class ScenarioTest extends BaseTest {
     @Test
     @Story("Check list of chocolate items")
     @Description("Проверка категории товаров \"Шоколадные конфеты в коробках\"")
-    void test1() {
+    void test1() throws InterruptedException {
         this.yaMarketPage.callRegionSelector("Москва")
                 .setRegionValue("Москва")
                 .setQuery("Шоколадные конфеты в коробках, подарочные наборы")
-                .filterResults("100");
+                .filterResults("100")
+                .clickForMoreReaults(4);
         Assert.assertTrue("Количество Rafaello меньше чем Dove",
-                this.yaMarketPage.searchAndCountItemInList("Rafaello", 4) >
-                        this.yaMarketPage.searchAndCountItemInList("Dove", 4));
+                this.yaMarketPage.getAndCountItemsInList("Raffaello") >
+                        this.yaMarketPage.getAndCountItemsInList("Dove"));
+        this.yaMarketPage.refreshPage().checkItemExist("кедровый орех");
     }
 }

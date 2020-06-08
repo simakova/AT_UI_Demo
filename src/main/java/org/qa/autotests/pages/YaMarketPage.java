@@ -5,6 +5,8 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Step;
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
@@ -18,13 +20,13 @@ public class YaMarketPage extends BasePage<YaMarketPage>{
     @Step("Вызвали popup window для выбора региона")
     public PopUpPage callRegionSelector(String value) {
         this.screenshotEntryPage();
-        try {
+        /*try {
             checkRegionName(value);
-        } catch (AssertionError ae){
-            $x("//button[ancestor::div[contains(@data-apiary-widget-name, 'HeaderRegion')]]")
-                    .waitUntil(appear, minTimeoutToWait)
-                    .click();
-        }
+        } catch (AssertionError ae){*/
+        $x("//button[ancestor::div[contains(@data-apiary-widget-name, 'HeaderRegion')]]")
+                .waitUntil(appear, minTimeoutToWait)
+                .click();
+        //}
         logger.debug("[шаг] вызвали pop up окно для выбора региона");
         return Selenide.page(PopUpPage.class);
     }
@@ -46,9 +48,10 @@ public class YaMarketPage extends BasePage<YaMarketPage>{
     }
 
     @Step("Отфильтровали результаты поиска по весу до ${filterString}")
-    public YaMarketPage filterResults(String filterString){
+    public YaMarketPage filterResults(String filterString) throws InterruptedException {
         List<String> listItems = getItemList();
         $x("//input[@name='Вес до']").setValue(filterString);
+        Thread.sleep(3000);
         List<String> listItemsCurrent = getItemList();
         //comapre before/after lists, fail if equals
         if (listItems.stream().allMatch(listItemsCurrent::contains)) Assert.fail();
@@ -56,16 +59,45 @@ public class YaMarketPage extends BasePage<YaMarketPage>{
         return this;
     }
 
-    List<String> getItemList(){
+    List<String> getItemList() throws InterruptedException {
         logger.debug("[шаг] получили список элементов");
-        return $$x("//div[contains(@class,'n-snippet-list')]/div").shouldBe(CollectionCondition.sizeGreaterThan(0)).texts();
+        new WebDriverWait(driver, 4000).until(driver -> (boolean)((JavascriptExecutor)driver)
+                .executeScript("return jQuery.active == 0"));
+        Thread.sleep(4000);
+        return $$x("//div[contains(@class,'n-snippet-list')]/descendant::h3[contains(@class, 'title')]").shouldHave(CollectionCondition.sizeGreaterThan(0)).texts();
     }
+
     @Step("Нашли наименование товара ${itemName} в списке")
-    public int searchAndCountItemInList(String itemName, int pageCount){
+    public int getAndCountItemsInList(String itemName) throws InterruptedException {
+        logger.debug("[шаг] Нашли наименование товара {} в списке", itemName);
+        return (int) getItemList().stream().filter(x -> x.contains(itemName)).count();
+    }
+
+    @Step("Перешли на {} страницу")
+    public YaMarketPage clickForMoreReaults(int pageCount){
         for (int i = 1; i < pageCount; i++) {
             $x("//a[contains(., 'Показать еще')]").click();
         }
-        logger.debug("[шаг] Нашла наименование товара {} в списке", itemName);
-        return (int) getItemList().stream().filter(x -> x.contains(itemName)).count();
+        logger.debug("[шаг] Перешли на {} страницу", pageCount);
+        return this;
+    }
+
+    @Step("Нажали на кнопку {}")
+    public YaMarketPage clickButton(String nameBtn){
+        $x(String.format("//span[@class='button__text' and contains(text(), '%s')]", nameBtn)).click();
+        logger.debug("[шаг] Нажали на кнопку {}", nameBtn);
+        return this;
+    }
+
+    @Step("Проверили наличие элемента на странице")
+    public YaMarketPage checkItemExist(String text){
+        Assert.assertTrue("такого элемента не существует", $$x("//div[contains(@class,'n-snippet-list')]/descendant::ul[contains(@class, 'desc')]").filter(Condition.text(text)).size()!=0);
+        logger.debug("[шаг] Проверили наличие {} в списке", text);
+        return this;
+    }
+    @Step("Обновили страницу")
+    public YaMarketPage refreshPage() {
+        driver.navigate().refresh();
+        return this;
     }
 }

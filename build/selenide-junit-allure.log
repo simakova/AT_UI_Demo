@@ -1926,3 +1926,1267 @@ Session ID: 6d59fd09fc1607d44730a9ab36e425c8
 08-06-2020 00:52:59 INFO  CloseDriverCommand:21 - Close webdriver: 22 -> ChromeDriver: chrome on LINUX (null)
 08-06-2020 00:52:59 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
 08-06-2020 00:52:59 INFO  CloseDriverCommand:41 - Closed webdriver 22 in 30 ms
+08-06-2020 06:46:25 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 06:46:25 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 06:46:25 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 06:46:25 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 06:46:25 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 06:46:25 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 06:46:25 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 06:46:25 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 06:46:26 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 06:46:26 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 06:46:27 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 06:46:27 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 06:46:27 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 06:46:27 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 06:46:27 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 06:46:35 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 06:46:35 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 06:46:35 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 06:46:35 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 06:46:35 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (c5dfe0e16a560d482a3847c5d994fd37)
+08-06-2020 06:46:45 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 06:46:46 DEBUG BaseTest:17 - [шаг] установили регион Москва в поле ввода
+08-06-2020 06:46:49 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 06:46:49 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 06:46:57 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 06:47:01 DEBUG BaseTest:55 - [шаг] Отфильтровали результаты поиска по весу до 100
+08-06-2020 06:47:07 DEBUG BaseTest:68 - [шаг] Нашла наименование товара Rafaello в списке
+08-06-2020 06:47:07 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 06:47:26 DEBUG BaseTest:68 - [шаг] Нашла наименование товара Dove в списке
+08-06-2020 06:47:26 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 06:47:54 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (c5dfe0e16a560d482a3847c5d994fd37)
+08-06-2020 06:47:54 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 06:47:54 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 65 ms
+08-06-2020 06:47:55 INFO  CloseDriverCommand:21 - Close webdriver: 22 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 06:47:55 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 06:47:55 INFO  CloseDriverCommand:41 - Closed webdriver 22 in 3 ms
+08-06-2020 06:52:27 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 06:52:27 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 06:52:27 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 06:52:27 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 06:52:27 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 06:52:27 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 06:52:27 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 06:52:27 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 06:52:28 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 06:52:28 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 06:52:28 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 06:52:28 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 06:52:28 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 06:52:28 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 06:52:28 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 06:52:33 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 06:52:34 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 06:52:34 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 06:52:34 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 06:52:34 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (9acbccf1627826b14371c97896ec5fdc)
+08-06-2020 06:52:39 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 06:52:41 DEBUG BaseTest:17 - [шаг] установили регион Москва в поле ввода
+08-06-2020 06:52:44 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 06:52:44 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 06:52:52 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 06:52:56 DEBUG BaseTest:55 - [шаг] Отфильтровали результаты поиска по весу до 100
+08-06-2020 06:52:56 ERROR NamingUtils:61 - Could not process empty pattern
+08-06-2020 06:53:02 DEBUG BaseTest:65 - [шаг] Нашла наименование товара Rafaello в списке
+08-06-2020 06:53:02 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 06:53:14 DEBUG BaseTest:65 - [шаг] Нашла наименование товара Dove в списке
+08-06-2020 06:53:14 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 06:53:28 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (9acbccf1627826b14371c97896ec5fdc)
+08-06-2020 06:53:28 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 06:53:29 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 41 ms
+08-06-2020 06:53:29 INFO  CloseDriverCommand:21 - Close webdriver: 22 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 06:53:29 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 06:53:29 INFO  CloseDriverCommand:41 - Closed webdriver 22 in 12 ms
+08-06-2020 06:58:49 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 06:58:49 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 06:58:49 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 06:58:49 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 06:58:49 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 06:58:49 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 06:58:49 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 06:58:49 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 06:58:49 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 06:58:49 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 06:58:50 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 06:58:50 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 06:58:50 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 06:58:50 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 06:58:50 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 06:58:53 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 06:58:53 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 06:58:53 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 06:58:53 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 06:58:53 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (bd1f826d17c6988e8728047115d91ca6)
+08-06-2020 06:58:59 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 06:59:00 DEBUG BaseTest:17 - [шаг] установили регион Москва в поле ввода
+08-06-2020 06:59:04 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 06:59:04 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 06:59:12 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 06:59:15 DEBUG BaseTest:55 - [шаг] Отфильтровали результаты поиска по весу до 100
+08-06-2020 06:59:15 ERROR NamingUtils:61 - Could not process empty pattern
+08-06-2020 06:59:46 DEBUG BaseTest:65 - [шаг] Нашла наименование товара Rafaello в списке
+08-06-2020 07:00:04 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:00:43 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:01:11 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:01:31 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:02:01 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:02:26 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:03:08 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:03:25 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:03:43 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:04:08 DEBUG BaseTest:65 - [шаг] Нашла наименование товара Dove в списке
+08-06-2020 07:04:21 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:05:48 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:06:32 INFO  CloseDriverCommand:21 - Close webdriver: 24 -> ChromeDriver: chrome on LINUX (bd1f826d17c6988e8728047115d91ca6)
+08-06-2020 07:06:32 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:06:32 ERROR CloseDriverCommand:58 - Cannot close browser normally: WebDriverException: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:23498
+08-06-2020 07:06:32 INFO  CloseDriverCommand:41 - Closed webdriver 24 in 92 ms
+08-06-2020 07:07:12 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:07:12 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:07:12 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:07:12 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:07:12 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:07:12 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:07:12 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:07:12 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:07:13 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:07:13 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:07:14 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:07:14 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:07:14 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:07:14 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:07:15 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:07:22 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:07:22 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:07:22 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:07:22 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:07:22 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (fc73e776be3c841b9742f35027362ed6)
+08-06-2020 07:07:28 DEBUG BaseTest:37 - [шаг] проверили наименование региона Киров
+08-06-2020 07:07:28 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:07:34 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591589253633.0.png'
+08-06-2020 07:07:35 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (fc73e776be3c841b9742f35027362ed6)
+08-06-2020 07:07:35 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:07:35 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 40 ms
+08-06-2020 07:07:35 INFO  CloseDriverCommand:21 - Close webdriver: 24 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:07:35 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:07:35 INFO  CloseDriverCommand:41 - Closed webdriver 24 in 5 ms
+08-06-2020 07:08:16 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:08:17 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:08:17 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:08:17 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:08:17 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:08:17 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:08:17 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:08:17 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:08:17 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:08:17 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:08:18 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:08:18 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:08:18 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:08:18 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:08:18 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:08:20 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:08:20 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:08:20 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:08:20 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:08:20 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (455a696b5ad703dd6af5f5a2b4f0d091)
+08-06-2020 07:08:25 DEBUG BaseTest:37 - [шаг] проверили наименование региона Киров
+08-06-2020 07:08:25 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:08:31 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591589310786.0.png'
+08-06-2020 07:08:32 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (455a696b5ad703dd6af5f5a2b4f0d091)
+08-06-2020 07:08:32 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:08:32 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 53 ms
+08-06-2020 07:08:32 INFO  CloseDriverCommand:21 - Close webdriver: 24 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:08:32 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:08:32 INFO  CloseDriverCommand:41 - Closed webdriver 24 in 8 ms
+08-06-2020 07:08:56 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:08:57 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:08:57 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:08:57 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:08:57 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:08:57 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:08:57 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:08:57 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:08:57 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:08:57 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:08:57 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:08:58 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:08:58 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:08:58 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:08:58 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:09:00 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:09:00 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:09:00 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:09:00 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:09:00 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (572234a485adfa1407e29cde8e39a2b6)
+08-06-2020 07:09:05 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:09:07 DEBUG BaseTest:17 - [шаг] установили регион Москва в поле ввода
+08-06-2020 07:09:10 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 07:09:10 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:09:20 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:09:23 DEBUG BaseTest:55 - [шаг] Отфильтровали результаты поиска по весу до 100
+08-06-2020 07:09:23 ERROR NamingUtils:61 - Could not process empty pattern
+08-06-2020 07:09:52 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:11:23 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:19:51 DEBUG BaseTest:65 - [шаг] Нашли наименование товара Raffaello в списке
+08-06-2020 07:19:51 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:19:52 INFO  CloseDriverCommand:21 - Close webdriver: 24 -> ChromeDriver: chrome on LINUX (572234a485adfa1407e29cde8e39a2b6)
+08-06-2020 07:19:52 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:19:52 ERROR CloseDriverCommand:58 - Cannot close browser normally: WebDriverException: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:30264
+08-06-2020 07:19:52 INFO  CloseDriverCommand:41 - Closed webdriver 24 in 354 ms
+08-06-2020 07:20:35 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:20:35 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:20:35 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:20:35 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:20:35 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:20:35 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:20:35 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:20:35 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:20:36 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:20:36 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:20:37 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:20:37 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:20:37 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:20:37 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:20:37 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:20:49 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:20:49 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:20:49 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:20:49 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:20:49 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (fd0d4996277e98d62365b13ba37fd44d)
+08-06-2020 07:20:56 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:20:57 DEBUG BaseTest:17 - [шаг] установили регион Москва в поле ввода
+08-06-2020 07:21:01 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 07:21:01 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:21:11 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591590071368.0.png'
+08-06-2020 07:21:12 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (fd0d4996277e98d62365b13ba37fd44d)
+08-06-2020 07:21:12 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:21:12 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 82 ms
+08-06-2020 07:21:12 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:21:12 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:21:12 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 3 ms
+08-06-2020 07:22:47 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:22:47 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:22:47 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:22:47 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:22:47 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:22:47 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:22:47 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:22:47 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:22:48 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:22:48 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:22:48 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:22:48 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:22:48 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:22:48 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:22:48 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:22:50 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:22:51 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:22:51 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:22:51 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:22:51 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (957cbed702c7558e4761cc1ccbe28c62)
+08-06-2020 07:22:57 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:22:58 DEBUG BaseTest:17 - [шаг] установили регион Москва в поле ввода
+08-06-2020 07:23:02 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 07:23:02 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:23:08 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:23:10 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (957cbed702c7558e4761cc1ccbe28c62)
+08-06-2020 07:23:10 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:23:10 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 47 ms
+08-06-2020 07:23:10 INFO  CloseDriverCommand:21 - Close webdriver: 22 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:23:10 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:23:10 INFO  CloseDriverCommand:41 - Closed webdriver 22 in 13 ms
+08-06-2020 07:24:21 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:24:22 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:24:22 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:24:22 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:24:22 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:24:22 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:24:22 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:24:22 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:24:22 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:24:22 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:24:23 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:24:23 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:24:23 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:24:23 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:24:23 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:24:25 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:24:25 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:24:25 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:24:25 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:24:25 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (f5c930cbaad583ef9e488a209c089570)
+08-06-2020 07:24:30 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:24:31 DEBUG BaseTest:17 - [шаг] установили регион Москва в поле ввода
+08-06-2020 07:24:34 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 07:24:34 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:24:41 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:24:42 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (f5c930cbaad583ef9e488a209c089570)
+08-06-2020 07:24:42 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:24:42 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 55 ms
+08-06-2020 07:24:42 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:24:42 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:24:42 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 2 ms
+08-06-2020 07:25:31 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:25:31 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:25:31 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:25:31 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:25:31 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:25:31 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:25:31 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:25:31 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:25:31 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:25:31 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:25:32 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:25:32 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:25:32 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:25:32 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:25:32 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:25:34 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:25:34 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:25:34 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:25:34 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:25:34 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (6ecd875675476398813d43fe6cd48df9)
+08-06-2020 07:25:39 DEBUG BaseTest:37 - [шаг] проверили наименование региона Киров
+08-06-2020 07:25:39 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:25:45 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591590344815.0.png'
+08-06-2020 07:25:46 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (6ecd875675476398813d43fe6cd48df9)
+08-06-2020 07:25:46 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:25:46 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 73 ms
+08-06-2020 07:25:46 INFO  CloseDriverCommand:21 - Close webdriver: 24 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:25:46 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:25:46 INFO  CloseDriverCommand:41 - Closed webdriver 24 in 55 ms
+08-06-2020 07:27:25 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:27:26 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:27:26 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:27:26 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:27:26 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:27:26 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:27:26 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:27:26 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:27:26 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:27:26 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:27:27 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:27:27 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:27:27 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:27:27 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:27:27 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:27:29 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:27:29 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:27:29 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:27:29 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:27:29 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (189b05348298ab7945300d9d44849692)
+08-06-2020 07:27:34 DEBUG BaseTest:37 - [шаг] проверили наименование региона Киров
+08-06-2020 07:27:34 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:27:39 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591590459148.0.png'
+08-06-2020 07:27:41 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (189b05348298ab7945300d9d44849692)
+08-06-2020 07:27:41 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:27:41 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 100 ms
+08-06-2020 07:27:41 INFO  CloseDriverCommand:21 - Close webdriver: 24 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:27:41 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:27:41 INFO  CloseDriverCommand:41 - Closed webdriver 24 in 40 ms
+08-06-2020 07:28:48 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:28:48 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:28:48 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:28:48 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:28:48 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:28:48 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:28:48 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:28:48 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:28:49 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:28:49 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:28:49 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:28:49 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:28:49 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:28:49 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:28:49 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:28:51 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:28:51 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:28:51 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:28:51 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:28:51 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (fabfd9c160128c5f476e55523d92768f)
+08-06-2020 07:28:56 DEBUG BaseTest:37 - [шаг] проверили наименование региона Киров
+08-06-2020 07:28:56 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:29:06 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591590546078.0.png'
+08-06-2020 07:29:07 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (fabfd9c160128c5f476e55523d92768f)
+08-06-2020 07:29:07 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:29:07 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 45 ms
+08-06-2020 07:29:07 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:29:07 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:29:07 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 31 ms
+08-06-2020 07:35:14 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:35:14 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:35:14 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:35:14 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:35:14 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:35:14 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:35:14 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:35:14 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:35:14 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:35:14 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:35:16 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:35:16 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:35:16 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:35:16 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:35:16 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:35:19 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:35:19 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:35:19 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:35:19 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:35:19 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (06e73c53c1723f845f53ac11f29b96d8)
+08-06-2020 07:35:27 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:35:29 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 07:35:34 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 07:35:34 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:35:42 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:35:44 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (06e73c53c1723f845f53ac11f29b96d8)
+08-06-2020 07:35:44 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:35:44 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 53 ms
+08-06-2020 07:35:44 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:35:45 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:35:45 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 42 ms
+08-06-2020 07:40:36 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:40:36 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:40:37 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:40:37 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:40:37 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:40:37 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:40:37 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:40:37 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:40:37 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:40:37 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:40:38 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:40:38 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:40:38 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:40:38 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:40:38 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:40:41 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:40:41 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:40:41 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:40:41 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:40:41 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (d6aa55a954defd4a33694c68ff25c2e1)
+08-06-2020 07:40:47 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:40:49 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 07:40:53 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 07:40:53 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:40:59 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:41:00 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (d6aa55a954defd4a33694c68ff25c2e1)
+08-06-2020 07:41:00 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:41:01 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 42 ms
+08-06-2020 07:41:01 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:41:01 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:41:01 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 8 ms
+08-06-2020 07:48:50 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:48:50 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:48:50 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:48:50 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:48:50 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:48:50 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:48:50 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:48:50 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:48:50 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:48:50 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:48:51 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:48:51 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:48:51 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:48:51 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:48:51 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:48:56 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:48:56 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:48:56 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:48:56 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:48:56 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (4a43d5bfb59b8ad00eab686250e774cb)
+08-06-2020 07:49:03 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:49:04 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 07:49:07 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 07:49:07 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:49:13 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:49:15 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (4a43d5bfb59b8ad00eab686250e774cb)
+08-06-2020 07:49:15 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:49:15 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 34 ms
+08-06-2020 07:49:15 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:49:15 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:49:15 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 12 ms
+08-06-2020 07:50:55 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:50:55 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:50:55 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:50:55 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:50:55 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:50:55 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:50:55 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:50:55 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:50:55 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:50:55 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:50:56 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:50:56 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:50:56 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:50:56 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:50:56 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:51:00 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:51:00 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:51:00 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:51:00 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:51:00 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (c12711d92282e0d4dfbfd4faefaa3a8a)
+08-06-2020 07:51:06 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:51:07 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 07:51:11 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 07:51:11 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:51:16 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591591876232.0.png'
+08-06-2020 07:51:18 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (c12711d92282e0d4dfbfd4faefaa3a8a)
+08-06-2020 07:51:18 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:51:18 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 32 ms
+08-06-2020 07:51:18 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:51:18 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:51:18 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 7 ms
+08-06-2020 07:52:22 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:52:23 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:52:23 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:52:23 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:52:23 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:52:23 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:52:23 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:52:23 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:52:23 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:52:23 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:52:24 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:52:24 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:52:24 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:52:24 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:52:24 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:52:27 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:52:27 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:52:27 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:52:27 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:52:27 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (8706eb644cb2290e469aba88e5f0db87)
+08-06-2020 07:52:32 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:52:34 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 07:52:37 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 07:52:37 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:52:41 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591591961279.0.png'
+08-06-2020 07:52:42 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (8706eb644cb2290e469aba88e5f0db87)
+08-06-2020 07:52:42 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:52:42 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 44 ms
+08-06-2020 07:52:42 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:52:42 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:52:42 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 3 ms
+08-06-2020 07:53:23 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 07:53:23 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 07:53:23 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 07:53:23 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 07:53:23 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 07:53:23 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 07:53:23 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 07:53:23 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 07:53:23 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 07:53:23 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 07:53:24 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 07:53:24 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 07:53:24 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 07:53:24 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 07:53:24 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 07:53:26 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 07:53:26 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 07:53:26 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 07:53:26 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 07:53:26 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (4ed804defb3396601126906918b2703c)
+08-06-2020 07:53:32 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 07:53:34 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 07:53:37 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 07:53:37 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 07:53:43 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591592022793.0.png'
+08-06-2020 07:53:44 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (4ed804defb3396601126906918b2703c)
+08-06-2020 07:53:44 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:53:44 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 44 ms
+08-06-2020 07:53:44 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 07:53:44 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 07:53:44 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 5 ms
+08-06-2020 08:07:10 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 08:07:11 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 08:07:11 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 08:07:11 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 08:07:11 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 08:07:11 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 08:07:11 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 08:07:11 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 08:07:11 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 08:07:11 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 08:07:12 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 08:07:12 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 08:07:12 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 08:07:12 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 08:07:12 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 08:07:14 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 08:07:15 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 08:07:15 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 08:07:15 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 08:07:15 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (087570dbd8c02f6dbc3c6a5a4ebab90a)
+08-06-2020 08:07:26 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 08:07:28 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 08:07:31 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 08:07:31 DEBUG BaseTest:61 - [шаг] получили список элементов
+08-06-2020 08:07:38 DEBUG BaseTest:61 - [шаг] получили список элементов
+08-06-2020 08:07:39 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (087570dbd8c02f6dbc3c6a5a4ebab90a)
+08-06-2020 08:07:39 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:07:39 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 28 ms
+08-06-2020 08:07:39 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 08:07:39 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:07:39 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 2 ms
+08-06-2020 08:11:13 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 08:11:13 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 08:11:13 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 08:11:13 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 08:11:13 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 08:11:13 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 08:11:13 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 08:11:13 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 08:11:13 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 08:11:13 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 08:11:14 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 08:11:14 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 08:11:14 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 08:11:14 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 08:11:14 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 08:11:21 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 08:11:22 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 08:11:22 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 08:11:22 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 08:11:22 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (cfd1f4edd5a96edb8b717afe9570cb6c)
+08-06-2020 08:11:27 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 08:11:28 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 08:11:31 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 08:11:31 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 08:11:44 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 08:11:55 DEBUG BaseTest:55 - [шаг] Отфильтровали результаты поиска по весу до 100
+08-06-2020 08:11:55 ERROR NamingUtils:61 - Could not process empty pattern
+08-06-2020 08:12:01 DEBUG BaseTest:67 - [шаг] Нашли наименование товара Raffaello в списке
+08-06-2020 08:12:01 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 08:12:15 DEBUG BaseTest:67 - [шаг] Нашли наименование товара Dove в списке
+08-06-2020 08:12:15 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 08:12:31 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (cfd1f4edd5a96edb8b717afe9570cb6c)
+08-06-2020 08:12:31 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:12:31 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 67 ms
+08-06-2020 08:12:31 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 08:12:31 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:12:31 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 1 ms
+08-06-2020 08:17:54 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 08:17:54 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 08:17:54 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 08:17:54 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 08:17:54 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 08:17:54 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 08:17:54 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 08:17:54 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 08:17:54 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 08:17:54 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 08:17:55 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 08:17:55 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 08:17:55 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 08:17:55 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 08:17:55 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 08:17:59 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 08:17:59 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 08:17:59 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 08:17:59 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 08:17:59 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (4ff9dba88e2ebe0e02bcf5c0aed7d9db)
+08-06-2020 08:18:05 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 08:18:08 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 08:18:11 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 08:18:11 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 08:18:17 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 08:18:20 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (4ff9dba88e2ebe0e02bcf5c0aed7d9db)
+08-06-2020 08:18:20 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:18:20 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 25 ms
+08-06-2020 08:18:20 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 08:18:20 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:18:20 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 4 ms
+08-06-2020 08:22:17 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 08:22:17 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 08:22:17 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 08:22:17 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 08:22:17 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 08:22:17 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 08:22:17 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 08:22:17 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 08:22:17 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 08:22:17 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 08:22:18 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 08:22:18 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 08:22:18 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 08:22:18 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 08:22:18 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 08:22:21 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 08:22:21 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 08:22:21 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 08:22:21 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 08:22:21 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (ee7b623ab1a86111ef16b8db0182ecdd)
+08-06-2020 08:22:26 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 08:22:27 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 08:22:31 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 08:22:31 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 08:22:42 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591593761478.0.png'
+08-06-2020 08:22:43 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (ee7b623ab1a86111ef16b8db0182ecdd)
+08-06-2020 08:22:43 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:22:43 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 46 ms
+08-06-2020 08:22:43 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 08:22:43 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:22:43 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 24 ms
+08-06-2020 08:23:30 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 08:23:30 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 08:23:30 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 08:23:30 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 08:23:30 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 08:23:30 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 08:23:30 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 08:23:30 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 08:23:30 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 08:23:30 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 08:23:31 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 08:23:31 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 08:23:31 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 08:23:31 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 08:23:31 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 08:23:32 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 08:23:33 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 08:23:33 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 08:23:33 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 08:23:33 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (dfc0fb34af7fb016b4d34aebdf32a1dc)
+08-06-2020 08:23:39 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 08:23:40 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 08:23:43 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 08:23:43 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 08:23:48 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591593827847.0.png'
+08-06-2020 08:23:49 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (dfc0fb34af7fb016b4d34aebdf32a1dc)
+08-06-2020 08:23:49 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:23:49 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 58 ms
+08-06-2020 08:23:49 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 08:23:49 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:23:49 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 41 ms
+08-06-2020 08:24:53 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 08:24:53 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 08:24:53 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 08:24:53 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 08:24:53 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 08:24:53 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 08:24:53 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 08:24:53 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 08:24:53 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 08:24:53 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 08:24:54 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 08:24:54 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 08:24:54 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 08:24:54 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 08:24:54 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 08:24:56 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 08:24:56 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 08:24:56 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 08:24:56 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 08:24:56 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (bf33a6e0524fa56863c3149dd6637cd9)
+08-06-2020 08:25:01 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 08:25:03 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 08:25:06 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 08:25:06 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 08:25:11 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591593911026.0.png'
+08-06-2020 08:25:12 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (bf33a6e0524fa56863c3149dd6637cd9)
+08-06-2020 08:25:12 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:25:12 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 29 ms
+08-06-2020 08:25:12 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 08:25:12 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:25:12 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 7 ms
+08-06-2020 08:31:38 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 08:31:38 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 08:31:38 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 08:31:38 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 08:31:38 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 08:31:38 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 08:31:38 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 08:31:38 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 08:31:38 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 08:31:38 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 08:31:39 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 08:31:39 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 08:31:39 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 08:31:39 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 08:31:39 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 08:31:41 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 08:31:41 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 08:31:41 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 08:31:41 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 08:31:41 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (96fb9f336eacf744745d5acd788a4c42)
+08-06-2020 08:31:50 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 08:31:52 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 08:31:55 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 08:31:55 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 08:32:01 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591594320945.0.png'
+08-06-2020 08:32:04 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (96fb9f336eacf744745d5acd788a4c42)
+08-06-2020 08:32:04 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:32:04 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 131 ms
+08-06-2020 08:32:04 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 08:32:04 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:32:04 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 12 ms
+08-06-2020 08:36:45 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 08:36:45 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 08:36:46 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 08:36:46 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 08:36:46 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 08:36:46 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 08:36:46 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 08:36:46 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 08:36:46 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 08:36:46 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 08:36:47 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 08:36:47 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 08:36:47 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 08:36:47 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 08:36:47 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 08:36:50 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 08:36:50 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 08:36:50 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 08:36:50 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 08:36:50 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (82dd133d12e0876a0789af7171d945d1)
+08-06-2020 08:36:57 DEBUG BaseTest:28 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 08:36:59 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 08:37:03 DEBUG BaseTest:44 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 08:37:03 DEBUG BaseTest:60 - [шаг] получили список элементов
+08-06-2020 08:37:14 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591594633351.0.png'
+08-06-2020 08:37:15 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (82dd133d12e0876a0789af7171d945d1)
+08-06-2020 08:37:15 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:37:15 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 42 ms
+08-06-2020 08:37:15 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 08:37:15 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:37:15 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 4 ms
+08-06-2020 08:48:58 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 08:48:58 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 08:48:58 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 08:48:58 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 08:48:58 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 08:48:58 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 08:48:58 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 08:48:58 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 08:48:59 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 08:48:59 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 08:48:59 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 08:48:59 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 08:48:59 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 08:48:59 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 08:49:00 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 08:49:02 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 08:49:02 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 08:49:02 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 08:49:02 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 08:49:02 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (f1c7b1389ac1ebad10864ece16b885f4)
+08-06-2020 08:49:08 DEBUG BaseTest:29 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 08:49:09 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 08:49:20 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591595359806.0.png'
+08-06-2020 08:49:20 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (f1c7b1389ac1ebad10864ece16b885f4)
+08-06-2020 08:49:20 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:49:20 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 49 ms
+08-06-2020 08:49:20 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 08:49:20 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:49:20 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 33 ms
+08-06-2020 08:49:55 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 08:49:55 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 08:49:55 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 08:49:55 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 08:49:55 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 08:49:55 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 08:49:55 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 08:49:55 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 08:49:55 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 08:49:55 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 08:49:56 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 08:49:56 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 08:49:56 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 08:49:56 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 08:49:56 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 08:49:58 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 08:49:58 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 08:49:58 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 08:49:58 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 08:49:58 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (e462efb20f1eb9dfd38fec54d6d89aea)
+08-06-2020 08:50:04 DEBUG BaseTest:29 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 08:50:05 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 08:50:11 DEBUG BaseTest:45 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 08:50:11 DEBUG BaseTest:61 - [шаг] получили список элементов
+08-06-2020 08:50:17 DEBUG BaseTest:61 - [шаг] получили список элементов
+08-06-2020 08:50:18 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (e462efb20f1eb9dfd38fec54d6d89aea)
+08-06-2020 08:50:18 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:50:18 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 25 ms
+08-06-2020 08:50:18 INFO  CloseDriverCommand:21 - Close webdriver: 22 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 08:50:18 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:50:18 INFO  CloseDriverCommand:41 - Closed webdriver 22 in 0 ms
+08-06-2020 08:57:57 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 08:57:58 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 08:57:58 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 08:57:58 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 08:57:58 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 08:57:58 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 08:57:58 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 08:57:58 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 08:57:59 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 08:57:59 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 08:58:00 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 08:58:00 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 08:58:00 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 08:58:00 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 08:58:00 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 08:58:24 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 08:58:24 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 08:58:24 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 08:58:24 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 08:58:24 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (b84983745381b65d5f5c7408e35a6669)
+08-06-2020 08:58:43 DEBUG BaseTest:30 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 08:58:44 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 08:58:48 DEBUG BaseTest:46 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 08:58:48 DEBUG BaseTest:62 - [шаг] получили список элементов
+08-06-2020 08:59:05 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591595944268.0.png'
+08-06-2020 08:59:07 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (b84983745381b65d5f5c7408e35a6669)
+08-06-2020 08:59:07 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:59:07 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 125 ms
+08-06-2020 08:59:07 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 08:59:07 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 08:59:07 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 1 ms
+08-06-2020 09:04:00 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 09:04:01 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 09:04:01 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 09:04:01 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 09:04:01 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 09:04:01 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 09:04:01 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 09:04:01 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 09:04:01 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 09:04:01 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 09:04:03 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 09:04:03 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 09:04:03 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 09:04:03 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 09:04:03 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 09:04:08 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 09:04:08 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 09:04:08 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 09:04:08 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 09:04:08 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (e4ca353ed99f25277f49b47659706522)
+08-06-2020 09:04:23 DEBUG BaseTest:30 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 09:04:25 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 09:04:30 DEBUG BaseTest:46 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 09:04:30 DEBUG BaseTest:62 - [шаг] получили список элементов
+08-06-2020 09:04:41 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591596281035.0.png'
+08-06-2020 09:04:42 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (e4ca353ed99f25277f49b47659706522)
+08-06-2020 09:04:42 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:04:42 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 70 ms
+08-06-2020 09:04:42 INFO  CloseDriverCommand:21 - Close webdriver: 22 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 09:04:42 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:04:42 INFO  CloseDriverCommand:41 - Closed webdriver 22 in 3 ms
+08-06-2020 09:06:00 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 09:06:00 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 09:06:00 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 09:06:00 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 09:06:00 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 09:06:00 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 09:06:00 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 09:06:00 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 09:06:00 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 09:06:00 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 09:06:01 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 09:06:01 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 09:06:01 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 09:06:01 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 09:06:01 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 09:06:03 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 09:06:03 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 09:06:03 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 09:06:03 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 09:06:03 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (3ba881207c0f4269a876e1bb0360d542)
+08-06-2020 09:06:09 DEBUG BaseTest:30 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 09:06:10 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 09:06:14 DEBUG BaseTest:46 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 09:06:14 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:06:19 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:06:25 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (3ba881207c0f4269a876e1bb0360d542)
+08-06-2020 09:06:25 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:06:25 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 50 ms
+08-06-2020 09:06:25 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 09:06:25 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:06:25 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 6 ms
+08-06-2020 09:07:08 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 09:07:08 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 09:07:08 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 09:07:08 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 09:07:08 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 09:07:08 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 09:07:08 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 09:07:08 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 09:07:08 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 09:07:08 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 09:07:09 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 09:07:09 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 09:07:09 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 09:07:09 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 09:07:09 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 09:07:11 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 09:07:11 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 09:07:11 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 09:07:11 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 09:07:11 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (7f5eb7b5650aa91a5a851664f5c17606)
+08-06-2020 09:07:16 DEBUG BaseTest:30 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 09:07:17 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 09:07:21 DEBUG BaseTest:46 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 09:07:21 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:07:27 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:07:33 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (7f5eb7b5650aa91a5a851664f5c17606)
+08-06-2020 09:07:33 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:07:33 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 43 ms
+08-06-2020 09:07:33 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 09:07:33 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:07:33 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 6 ms
+08-06-2020 09:08:16 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 09:08:16 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 09:08:16 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 09:08:16 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 09:08:16 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 09:08:16 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 09:08:16 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 09:08:16 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 09:08:16 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 09:08:16 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 09:08:17 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 09:08:17 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 09:08:17 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 09:08:17 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 09:08:17 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 09:08:19 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 09:08:19 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 09:08:19 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 09:08:19 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 09:08:19 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (5e3a28948f7adee43aa6b1ecd80894be)
+08-06-2020 09:08:24 DEBUG BaseTest:30 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 09:08:26 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 09:08:29 DEBUG BaseTest:46 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 09:08:29 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:08:35 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:08:46 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (5e3a28948f7adee43aa6b1ecd80894be)
+08-06-2020 09:08:46 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:08:46 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 65 ms
+08-06-2020 09:08:46 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 09:08:46 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:08:46 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 4 ms
+08-06-2020 09:10:14 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 09:10:14 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 09:10:14 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 09:10:14 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 09:10:14 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 09:10:14 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 09:10:14 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 09:10:14 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 09:10:14 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 09:10:14 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 09:10:31 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 09:10:31 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 09:10:31 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 09:10:31 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 09:10:31 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 09:10:31 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 09:10:31 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 09:10:31 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 09:10:31 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 09:10:31 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 09:10:32 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 09:10:32 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 09:10:32 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 09:10:32 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 09:10:32 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 09:10:34 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 09:10:34 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 09:10:34 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 09:10:34 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 09:10:34 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (b5cb6ffde24eb7cf45a204d5f71428d2)
+08-06-2020 09:10:40 DEBUG BaseTest:30 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 09:10:41 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 09:10:44 DEBUG BaseTest:46 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 09:10:44 DEBUG BaseTest:62 - [шаг] получили список элементов
+08-06-2020 09:10:50 DEBUG BaseTest:62 - [шаг] получили список элементов
+08-06-2020 09:10:52 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (b5cb6ffde24eb7cf45a204d5f71428d2)
+08-06-2020 09:10:52 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:10:52 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 25 ms
+08-06-2020 09:10:52 INFO  CloseDriverCommand:21 - Close webdriver: 22 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 09:10:52 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:10:52 INFO  CloseDriverCommand:41 - Closed webdriver 22 in 27 ms
+08-06-2020 09:15:15 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 09:15:15 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 09:15:15 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 09:15:15 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 09:15:15 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 09:15:15 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 09:15:15 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 09:15:15 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 09:15:15 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 09:15:15 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 09:15:16 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 09:15:16 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 09:15:16 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 09:15:16 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 09:15:16 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 09:15:18 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 09:15:18 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 09:15:18 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 09:15:18 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 09:15:18 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (3d4d577910b1628e9614f93aa4809611)
+08-06-2020 09:15:23 DEBUG BaseTest:30 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 09:15:24 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 09:15:28 DEBUG BaseTest:46 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 09:15:28 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:15:43 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591596942544.0.png'
+08-06-2020 09:15:43 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (3d4d577910b1628e9614f93aa4809611)
+08-06-2020 09:15:43 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:15:43 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 40 ms
+08-06-2020 09:15:44 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 09:15:44 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:15:44 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 16 ms
+08-06-2020 09:30:58 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 09:30:58 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 09:30:58 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 09:30:58 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 09:30:58 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 09:30:58 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 09:30:58 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 09:30:58 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 09:30:58 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 09:30:58 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 09:30:59 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 09:30:59 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 09:30:59 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 09:30:59 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 09:30:59 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 09:31:01 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 09:31:01 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 09:31:01 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 09:31:01 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 09:31:01 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (f7b80c799d2ce97b451518a0d03e8e57)
+08-06-2020 09:31:07 DEBUG BaseTest:30 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 09:31:08 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 09:31:11 DEBUG BaseTest:46 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 09:31:11 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:31:26 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:31:37 DEBUG BaseTest:58 - [шаг] Отфильтровали результаты поиска по весу до 100
+08-06-2020 09:31:37 ERROR NamingUtils:61 - Could not process empty pattern
+08-06-2020 09:31:43 DEBUG BaseTest:72 - [шаг] Нашли наименование товара Raffaello в списке
+08-06-2020 09:31:43 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:32:00 DEBUG BaseTest:72 - [шаг] Нашли наименование товара Dove в списке
+08-06-2020 09:32:00 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:32:14 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (f7b80c799d2ce97b451518a0d03e8e57)
+08-06-2020 09:32:14 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:32:14 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 82 ms
+08-06-2020 09:32:14 INFO  CloseDriverCommand:21 - Close webdriver: 22 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 09:32:14 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:32:14 INFO  CloseDriverCommand:41 - Closed webdriver 22 in 13 ms
+08-06-2020 09:52:42 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 09:52:42 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 09:52:42 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 09:52:42 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 09:52:42 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 09:52:42 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 09:52:42 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 09:52:42 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 09:52:42 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 09:52:42 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 09:52:43 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 09:52:43 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 09:52:43 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 09:52:43 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 09:52:43 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 09:52:47 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 09:52:48 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 09:52:48 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 09:52:48 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 09:52:48 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (8384ea461696fa5061e687db3565b947)
+08-06-2020 09:52:53 DEBUG BaseTest:30 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 09:52:54 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 09:52:57 DEBUG BaseTest:46 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 09:52:57 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:53:12 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:53:23 DEBUG BaseTest:58 - [шаг] Отфильтровали результаты поиска по весу до 100
+08-06-2020 09:53:23 ERROR NamingUtils:61 - Could not process empty pattern
+08-06-2020 09:53:29 DEBUG BaseTest:81 - [шаг] Перешли на 4 страницу
+08-06-2020 09:53:29 DEBUG BaseTest:72 - [шаг] Нашли наименование товара Raffaello в списке
+08-06-2020 09:53:29 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:53:49 DEBUG BaseTest:72 - [шаг] Нашли наименование товара Dove в списке
+08-06-2020 09:53:49 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:54:02 ERROR NamingUtils:61 - Could not process empty pattern
+08-06-2020 09:54:13 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591599252499.0.png'
+08-06-2020 09:54:15 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (8384ea461696fa5061e687db3565b947)
+08-06-2020 09:54:15 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:54:15 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 66 ms
+08-06-2020 09:54:15 INFO  CloseDriverCommand:21 - Close webdriver: 22 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 09:54:15 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:54:15 INFO  CloseDriverCommand:41 - Closed webdriver 22 in 28 ms
+08-06-2020 09:58:04 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 09:58:04 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 09:58:04 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 09:58:04 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 09:58:04 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 09:58:04 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 09:58:04 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 09:58:04 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 09:58:04 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 09:58:04 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 09:58:05 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 09:58:05 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 09:58:05 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 09:58:05 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 09:58:05 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 09:58:07 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 09:58:07 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 09:58:07 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 09:58:07 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 09:58:07 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (5e61c53867c2da13c9ae32340e2aa887)
+08-06-2020 09:58:12 DEBUG BaseTest:30 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 09:58:14 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 09:58:17 DEBUG BaseTest:46 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 09:58:17 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:58:33 DEBUG ScreenShotLaboratory:405 - reportsUrl is not configured. Returning screenshot file name '/home/ksenia/repo/work/AT_UI_Demo/build/reports/tests/1591599513238.0.png'
+08-06-2020 09:58:35 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (5e61c53867c2da13c9ae32340e2aa887)
+08-06-2020 09:58:35 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:58:35 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 81 ms
+08-06-2020 09:58:35 INFO  CloseDriverCommand:21 - Close webdriver: 23 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 09:58:35 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:58:35 INFO  CloseDriverCommand:41 - Closed webdriver 23 in 20 ms
+08-06-2020 09:58:53 INFO  BaseTest:50 - Set selenide properties selenide.properties
+08-06-2020 09:58:54 DEBUG CiReportUrl:28 - Variable selenide.reportsUrl not found
+08-06-2020 09:58:54 INFO  WebDriverThreadLocalContainer:119 - No webdriver is bound to current thread: 1 - let's create a new webdriver
+08-06-2020 09:58:54 DEBUG WebDriverFactory:47 - browser=chrome
+08-06-2020 09:58:54 DEBUG WebDriverFactory:48 - browser.version=null
+08-06-2020 09:58:54 DEBUG WebDriverFactory:49 - remote=null
+08-06-2020 09:58:54 DEBUG WebDriverFactory:50 - browserSize=1366x768
+08-06-2020 09:58:54 DEBUG WebDriverFactory:51 - startMaximized=false
+08-06-2020 09:58:54 INFO  WebDriverManager:269 - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+08-06-2020 09:58:54 INFO  WebDriverManager:271 - ====> http://tiny.cc/wdm-survey <====
+08-06-2020 09:58:54 DEBUG ResolutionCache:183 - Resolution chrome=83 in cache (valid until 18:50:47 08/06/2020 MSK)
+08-06-2020 09:58:54 INFO  WebDriverManager:571 - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+08-06-2020 09:58:54 DEBUG WebDriverManager:520 - Driver chromedriver 83.0.4103.39 found in cache
+08-06-2020 09:58:54 INFO  WebDriverManager:615 - Exporting webdriver.chrome.driver as /home/ksenia/.m2/repository/webdriver/chromedriver/linux64/83.0.4103.39/chromedriver
+08-06-2020 09:58:54 DEBUG ChromeDriverFactory:46 - Chrome options: Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb...], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /home/ksenia/repo/work/AT_U...}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}
+08-06-2020 09:58:57 INFO  BrowserResizer:28 - Set browser size to 1366x768
+08-06-2020 09:58:57 INFO  WebDriverFactory:101 - BrowserName=chrome Version=83.0.4103.97 Platform=LINUX
+08-06-2020 09:58:57 INFO  WebDriverFactory:60 - Selenide v. 5.12.2
+08-06-2020 09:58:57 INFO  WebDriverFactory:94 - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+08-06-2020 09:58:57 INFO  CreateDriverCommand:47 - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (22504b40717d1723d34c16b523fc4b83)
+08-06-2020 09:59:02 DEBUG BaseTest:30 - [шаг] вызвали pop up окно для выбора региона
+08-06-2020 09:59:04 DEBUG BaseTest:17 - [шаг] установили регион Киров в поле ввода
+08-06-2020 09:59:08 DEBUG BaseTest:46 - [шаг] ввели запрос в строку поиска Шоколадные конфеты в коробках, подарочные наборы
+08-06-2020 09:59:08 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:59:17 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:59:22 DEBUG BaseTest:58 - [шаг] Отфильтровали результаты поиска по весу до 100
+08-06-2020 09:59:22 ERROR NamingUtils:61 - Could not process empty pattern
+08-06-2020 09:59:27 DEBUG BaseTest:81 - [шаг] Перешли на 4 страницу
+08-06-2020 09:59:27 DEBUG BaseTest:72 - [шаг] Нашли наименование товара Raffaello в списке
+08-06-2020 09:59:27 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:59:38 DEBUG BaseTest:72 - [шаг] Нашли наименование товара Dove в списке
+08-06-2020 09:59:38 DEBUG BaseTest:63 - [шаг] получили список элементов
+08-06-2020 09:59:52 DEBUG BaseTest:95 - [шаг] Проверили наличие добавки: кедровый орех в списке
+08-06-2020 09:59:53 INFO  CloseDriverCommand:21 - Close webdriver: 1 -> ChromeDriver: chrome on LINUX (22504b40717d1723d34c16b523fc4b83)
+08-06-2020 09:59:53 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:59:53 INFO  CloseDriverCommand:41 - Closed webdriver 1 in 28 ms
+08-06-2020 09:59:53 INFO  CloseDriverCommand:21 - Close webdriver: 22 -> ChromeDriver: chrome on LINUX (null)
+08-06-2020 09:59:53 INFO  CloseDriverCommand:50 - Trying to close the browser ChromeDriver ...
+08-06-2020 09:59:53 INFO  CloseDriverCommand:41 - Closed webdriver 22 in 16 ms

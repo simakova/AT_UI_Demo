@@ -4,7 +4,7 @@ import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Step;
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -23,7 +23,7 @@ public class YaMarketPage extends BasePage<YaMarketPage>{
         /*try {
             checkRegionName(value);
         } catch (AssertionError ae){*/
-        $x("//button[ancestor::div[contains(@data-apiary-widget-name, 'HeaderRegion')]]")
+        $x(getProperty("YaMarketPage.regionPopUp"))
                 .waitUntil(appear, minTimeoutToWait)
                 .click();
         //}
@@ -33,38 +33,36 @@ public class YaMarketPage extends BasePage<YaMarketPage>{
 
     @Step("Проверили наименование региона")
     private YaMarketPage checkRegionName(String value) {
-        Assert.assertTrue("Название региона не совпадает с ожидаемым",
-                $x("//button[ancestor::div[contains(@data-apiary-widget-name, 'HeaderRegion')]]").waitUntil(Condition.visible, 30000)
-                        .has(text(value)));
+        Assertions.assertTrue($x(getProperty("YaMarketPage.regionPopUp")).waitUntil(Condition.visible, 30000)
+                .has(text(value)),"Название региона не совпадает с ожидаемым");
         logger.debug("[шаг] проверили наименование региона {}", value);
         return this;
     }
 
     @Step("Ввели запрос в строку поиска ${query}")
     public YaMarketPage setQuery(String query){
-        $x("//input[@itemprop='query-input']").setValue(query).pressEnter();
+        $x(getProperty("YaMarketPage.inputQuery")).setValue(query).pressEnter();
         logger.debug("[шаг] ввели запрос в строку поиска {}", query);
         return this;
     }
 
     @Step("Отфильтровали результаты поиска по весу до ${filterString}")
-    public YaMarketPage filterResults(String filterString) throws InterruptedException {
+    public YaMarketPage filterResults(String filterString, String filterName) throws InterruptedException {
         List<String> listItems = getItemList();
-        $x("//input[@name='Вес до']").setValue(filterString);
-        Thread.sleep(3000);
+        $x(String.format(getProperty("YaMarketPage.inputFilter"), filterName)).waitUntil(appear, 3000).setValue(filterString);
+        Thread.sleep(4000);
         List<String> listItemsCurrent = getItemList();
         //comapre before/after lists, fail if equals
-        if (listItems.stream().allMatch(listItemsCurrent::contains)) Assert.fail();
+        if (listItems.stream().allMatch(listItemsCurrent::contains)) Assertions.fail();
         logger.debug("[шаг] Отфильтровали результаты поиска по весу до {}", filterString);
         return this;
     }
 
     List<String> getItemList() throws InterruptedException {
         logger.debug("[шаг] получили список элементов");
-        new WebDriverWait(driver, 4000).until(driver -> (boolean)((JavascriptExecutor)driver)
-                .executeScript("return jQuery.active == 0"));
         Thread.sleep(4000);
-        return $$x("//div[contains(@class,'n-snippet-list')]/descendant::h3[contains(@class, 'title')]").shouldHave(CollectionCondition.sizeGreaterThan(0)).texts();
+        $$x(getProperty("YaMarketPage.itemHeader")).get(0).waitUntil(Condition.visible, 4000).scrollTo();
+        return $$x(getProperty("YaMarketPage.itemHeader")).shouldHave(CollectionCondition.sizeGreaterThan(0)).texts();
     }
 
     @Step("Нашли наименование товара ${itemName} в списке")
@@ -76,7 +74,7 @@ public class YaMarketPage extends BasePage<YaMarketPage>{
     @Step("Перешли на {} страницу")
     public YaMarketPage clickForMoreReaults(int pageCount){
         for (int i = 1; i < pageCount; i++) {
-            $x("//a[contains(., 'Показать еще')]").click();
+            $x(getProperty("YaMarketPage.btnViewMore")).click();
         }
         logger.debug("[шаг] Перешли на {} страницу", pageCount);
         return this;
@@ -84,20 +82,23 @@ public class YaMarketPage extends BasePage<YaMarketPage>{
 
     @Step("Нажали на кнопку {}")
     public YaMarketPage clickButton(String nameBtn){
-        $x(String.format("//span[@class='button__text' and contains(text(), '%s')]", nameBtn)).click();
+        $x(String.format(getProperty("YaMarketPage.button"), nameBtn)).waitUntil(Condition.appear, 3000).scrollTo().click();
         logger.debug("[шаг] Нажали на кнопку {}", nameBtn);
         return this;
     }
 
     @Step("Проверили наличие элемента на странице")
     public YaMarketPage checkItemExist(String text){
-        Assert.assertTrue("такого элемента не существует", $$x("//div[contains(@class,'n-snippet-list')]/descendant::ul[contains(@class, 'desc')]").filter(Condition.text(text)).size()!=0);
+        $$x(getProperty("YaMarketPage.itemDescr")).first().waitUntil(Condition.visible, 4000);
+        Assertions.assertTrue( $$x(getProperty("YaMarketPage.itemDescr"))
+                .filter(Condition.text(text)).size()!=0, "такого элемента не существует");
         logger.debug("[шаг] Проверили наличие {} в списке", text);
         return this;
     }
     @Step("Обновили страницу")
     public YaMarketPage refreshPage() {
         driver.navigate().refresh();
+        $x("//div[@data-apiary-widget-name=\"@MarketNode/HeaderLogo\"]").scrollTo();
         return this;
     }
 }

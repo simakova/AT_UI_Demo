@@ -2,6 +2,7 @@ package org.qa.autotests;
 
 import io.qameta.allure.*;
 import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
@@ -18,11 +19,10 @@ public class ScenarioTest extends BaseTest {
         this.yaMarketPage.callRegionSelector("Москва")
                 .setRegionValue("Москва")
                 .setQuery("Шоколадные конфеты в коробках, подарочные наборы")
-                .filterResults("100")
+                .filterResults("100", "Вес до")
                 .clickForMoreReaults(4);
-        Assert.assertTrue("Количество Rafaello меньше чем Dove",
-                this.yaMarketPage.getAndCountItemsInList("Raffaello") >
-                        this.yaMarketPage.getAndCountItemsInList("Dove"));
-        this.yaMarketPage.refreshPage().checkItemExist("кедровый орех");
+        Assertions.assertTrue(this.yaMarketPage.getAndCountItemsInList("Raffaello") >
+                        this.yaMarketPage.getAndCountItemsInList("Dove"),"Количество Rafaello меньше чем Dove");
+        super.yaMarketPage.refreshPage().checkItemExist("кедровый орех");
     }
 }

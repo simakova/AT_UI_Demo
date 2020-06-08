@@ -42,4 +42,7 @@ public abstract class BasePage<Page> extends SelenidePageFactory {
             throw new RuntimeException(e);
         }
     }
+    public String getProperty(String key){
+        return System.getProperties().getProperty(key);
+    }
 }

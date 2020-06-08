@@ -10,9 +10,7 @@
 
 Архитектура проекта и доп инструменты:
 ---------------
-Page Object, Page Element, PageFactory and Facade pattern
-
-UI Map - properties + parser //TODO
+UI Map - properties + parser
 
 Logger - Slf4j
 
@@ -20,11 +18,9 @@ Reporter - Allure
 
 Lombok
 
-assembly plugin - make executable jar with dependency
+Run tests Ветка test_selenide:
 
-run with:
+mvn clean test allure:report
 
-mvn clean compile assembly:single -DskipTests
-
-java -jar target/AT_UI_Demo-SNAPSHOT-1.0.jar
+./mvnw clean test allure:report
 

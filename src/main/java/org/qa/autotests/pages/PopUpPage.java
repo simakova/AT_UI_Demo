@@ -11,9 +11,9 @@ import static org.qa.autotests.BaseTest.logger;
 public class PopUpPage extends BasePage<PopUpPage>{
     @Step("Установили регион {value} в поле ввода")
     public YaMarketPage setRegionValue(String value) {
-        $x("//input[contains(@placeholder,'Укажите другой регион')]").waitUntil(Condition.appear, minTimeoutToWait).setValue(value);
-        $$x("//a[contains(@data-tid, '') and ancestor::form]").findBy(Condition.text(value)).click();
-        $x("//button[@type='submit' and descendant::span[contains(.,'Продолжить')]]").click();
+        $x(getProperty("PopUpPage.inputRegion")).waitUntil(Condition.appear, minTimeoutToWait).setValue(value);
+        $$x(getProperty("PopUpPage.regionHelpList")).findBy(Condition.text(value)).click();
+        $x(getProperty("PopUpPage.btnContinue")).click();
         logger.debug("[шаг] установили регион {} в поле ввода", value);
         return Selenide.page(YaMarketPage.class);
     }

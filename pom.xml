@@ -13,7 +13,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <selenium.version>3.141.59</selenium.version>
-        <junit.version>4.13</junit.version>
+        <junit.version>4.13.1</junit.version>
         <allure-junit4.version>2.13.3</allure-junit4.version>
         <allure-maven.version>2.9</allure-maven.version>
         <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
